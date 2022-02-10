@@ -16,6 +16,7 @@
 - Prevent node from peering to itself [#3342](https://github.com/hyperledger/besu/pull/3342)
 - Fix an `IndexOutOfBoundsException` exception when getting block from peers. [#3304](https://github.com/hyperledger/besu/issues/3304)
 - Handle legacy eth64 without throwing null pointer exceptions [#3343](https://github.com/hyperledger/besu/pull/3343)
+- Reject locally-sourced transactions below the minimum gas price when not mining. [#3397](https://github.com/hyperledger/besu/pull/3397)
 
 ## 22.1.0-RC3
 - Changing the order in which we traverse the word state tree during fast sync. This should improve fast sync during subsequent pivot changes.
