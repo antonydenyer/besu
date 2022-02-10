@@ -1838,7 +1838,7 @@ public class BesuCommand implements DefaultCommandValues, Runnable {
                 .targetGasLimit(targetGasLimit)
                 .minTransactionGasPrice(minTransactionGasPrice)
                 .extraData(extraData)
-                .enabled(isMiningEnabled)
+                .miningEnabled(isMiningEnabled)
                 .stratumMiningEnabled(iStratumMiningEnabled)
                 .stratumNetworkInterface(stratumNetworkInterface)
                 .stratumPort(stratumPort)

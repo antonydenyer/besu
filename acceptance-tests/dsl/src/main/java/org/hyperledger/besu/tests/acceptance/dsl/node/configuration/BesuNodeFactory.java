@@ -253,7 +253,7 @@ public class BesuNodeFactory {
         new MiningParameters.Builder()
             .minTransactionGasPrice(Wei.ZERO)
             .coinbase(AddressHelpers.ofValue(1))
-            .enabled(true)
+            .miningEnabled(true)
             .build();
 
     return create(

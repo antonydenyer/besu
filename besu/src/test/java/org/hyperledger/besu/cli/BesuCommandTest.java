@@ -875,7 +875,7 @@ public class BesuCommandTest extends CommandTestAbstract {
                 .coinbase(Address.fromHexString(expectedCoinbase))
                 .minTransactionGasPrice(DefaultCommandValues.DEFAULT_MIN_TRANSACTION_GAS_PRICE)
                 .extraData(DefaultCommandValues.DEFAULT_EXTRA_DATA)
-                .enabled(false)
+                .miningEnabled(false)
                 .build());
   }
 
@@ -892,7 +892,7 @@ public class BesuCommandTest extends CommandTestAbstract {
                 .coinbase(Address.fromHexString(expectedCoinbase))
                 .minTransactionGasPrice(DefaultCommandValues.DEFAULT_MIN_TRANSACTION_GAS_PRICE)
                 .extraData(DefaultCommandValues.DEFAULT_EXTRA_DATA)
-                .enabled(false)
+                .miningEnabled(false)
                 .build());
   }
 
